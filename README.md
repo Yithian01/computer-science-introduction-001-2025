@@ -10,25 +10,25 @@ Git을 사용하여 원격 레포지토리와 연결합니다. 먼저 해당 디
 
 
 # 디렉토리로 이동 (레포지토리를 클론한 디렉토리로 이동)
-cd /path/to/your/project-directory  # 원하는 디렉토리로 이동
+cd /path/to/your/project-directory               # 원하는 디렉토리로 이동 어디에 있던 상관 없습니다.
 
 # 원격 레포지토리 추가 (원격 레포지토리 URL을 자신의 레포지토리 URL로 변경)
 git remote add origin https://github.com/Yithian01/computer-science-introduction-001-2025.git
 
 ### 2단계: 최신 버전 받아오기
-git pull origin main  # main 브랜치에서 최신 변경 사항을 받아옴
+git pull origin main                             # main 브랜치에서 최신 변경 사항을 받아옴
 
 ### 3단계: 학번 브랜치 생성하기
-git checkout -b 20231234-branch  # 학번 브랜치 생성
+git checkout -b 20231234-branch                 # 학번 브랜치 생성
 
 
 ### 4단계: 변경 사항 커밋하기
 git add .  # 모든 변경된 파일 추가
-git commit -m "과제 제출: 학번 20231234"  # 커밋 메시지에 과제 제출을 명시
+git commit -m "과제 제출: 학번 20231234"        # 커밋 메시지에 과제 제출을 명시
 
 
 ### 5단계: 브랜치로 변경 사항 푸시하기
-git push origin 20231234-branch  # 자신의 브랜치로 푸시
+git push origin 20231234-branch                 # 자신의 브랜치로 푸시
 
 
 ### 설명
